@@ -84,12 +84,9 @@ if __name__ == "__main__":
     
     if result != -1:
         sp, ep = result
-        print(f"El patrón '{pattern}' se encuentra entre las posiciones {sp} y {ep}.")
+        original_start = sp
+        original_end = original_start + len(pattern) - 1
+        
+        print(f"El patrón '{pattern}' se encuentra entre las posiciones {original_start} y {original_end}.")
     else:
         print(f"El patrón '{pattern}' no se encuentra en la cadena.")
-
-
-
-
-
-
