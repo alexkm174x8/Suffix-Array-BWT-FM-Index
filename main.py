@@ -49,13 +49,12 @@ def backward_search(bwt, c, occur, pattern):
     for char in reversed(pattern):
         if char not in c:
             return -1 
-        
         sp = c[char] + occur[char][sp]
         ep = c[char] + occur[char][ep + 1] - 1
         
         if sp > ep:
             return -1 
-    
+
     return sp, ep
 
 if __name__ == "__main__":
@@ -79,14 +78,13 @@ if __name__ == "__main__":
     original_text = inverse_bwt(bwt)
     print("Texto original reconstruido:", original_text)
 
-    pattern = "ana"
+    pattern = "TCGA"
     result = backward_search(bwt, c, occur, pattern)
     
     if result != -1:
         sp, ep = result
-        original_start = sp
-        original_end = original_start + len(pattern) - 1
+        original_positions = [suffix_array[i] for i in range(sp, ep + 1)]
         
-        print(f"El patrón '{pattern}' se encuentra entre las posiciones {original_start} y {original_end}.")
+        print(f"El patron '{pattern}' se encuentra en las posiciones originales: {original_positions}.")
     else:
-        print(f"El patrón '{pattern}' no se encuentra en la cadena.")
+        print(f"El patron '{pattern}' no se encuentra en la cadena.")
