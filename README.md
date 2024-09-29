@@ -89,3 +89,7 @@ En este caso me toco implementar el Suffix Array, con la ayuda de ChatGPT, facil
 
 #### Miranda Arróniz:
 En la actividad de búsqueda en cadenas como el FM-Index, Burrows-Wheeler Transform (BWT) y Suffix Arrays, me enfoqué en implementar el BWT con la ayuda de ChatGPT-4. Contar con la ayuda de ChatGPT fue útil para entender cómo estas estructuras optimizan la búsqueda de datos. También comparé en tiempo y espacio la eficiencia del BWT con los algoritmos que mis demás compañeros implementamos. También use Git para coordinar y documentar el proyecto. Al final, esta experiencia me demostró lo útil que es la IA en programación y aprendizaje.
+
+#### Estefanía Antonio:
+Este proyecto me permitió profundizar en algoritmos avanzados y aplicar estructuras de datos complejas de manera práctica. El uso de Chat GPT fue enriquecedor, ya que facilitó la iteración rápida y la resolución eficiente de problemas. Sin embargo, es esencial complementar esta tecnología con un sólido conocimiento teórico para garantizar la precisión de las soluciones.
+El análisis de una cadena de genoma y la búsqueda de la subcadena “TCGA” demostraron la versatilidad de estos algoritmos en bioinformática, ampliando mi perspectiva sobre sus aplicaciones reales en la ciencia. La actividad fue un desafío que me permitió aplicar conocimientos y explorar nuevas tecnologías. Estoy satisfecha con el resultado y motivada a seguir investigando el potencial de la inteligencia artificial en la biología y la salud.
