@@ -1,5 +1,11 @@
 # Suffix Array, Burrows-Wheeler Transform (BWT), FM-Index y Búsqueda de Patrones
 
+Alejandro Kong Montoya A01734271 \
+Estefania Antonio Villaseca A01736897 \
+Miranda Eugenia Colorado Arroniz  A01737027 
+##
+
+
 Conversación con ChatGPT: https://chatgpt.com/share/66f89bd5-b1e4-8004-ba1f-63878e3ba1e8
 
 Este proyecto implementa el Suffix Array, Burrows-Wheeler Transform (BWT) y FM-Index, junto con métodos para realizar la búsqueda de patrones en una cadena de texto. El código está diseñado para leer un archivo de texto, calcular el Suffix Array y la BWT, y permitir la búsqueda eficiente de patrones utilizando el FM-Index.
@@ -71,3 +77,12 @@ Implementa la búsqueda hacia atrás utilizando el FM-Index para encontrar un pa
 - **Salida**: El rango de posiciones donde se encuentra el patrón en la cadena original o -1 si no se encuentra.
 - **Complejidad Temporal**: O(m * σ), donde m es el tamaño del patrón.
 - **Complejidad Espacial**: O(1).
+
+
+##
+
+# Conclusiones Individuales
+
+#### Alejandro Kong: 
+Esta actividad me permitió explorar conceptos avanzados de búsqueda de subcadenas, como el Suffix Array, la Burrows-Wheeler Transform (BWT) y el FM-Index. Colaborar en equipo y utilizar Git fue esencial para organizar nuestro trabajo y documentar el proceso.\
+En este caso me toco implementar el Suffix Array, con la ayuda de ChatGPT, facilitó mi comprensión de cómo estas estructuras optimizan la búsqueda en cadenas largas. También aprendí a analizar la complejidad temporal y espacial de nuestros algoritmos, lo que es crucial para mejorar su eficiencia. Esta experiencia me ayudó a reforzar mis conocimientos en estructuras de datos y a apreciar el valor de los grandes modelos de lenguaje en la programación.
