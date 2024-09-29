@@ -42,6 +42,22 @@ def inverse_bwt(bwt):
     
     return ''.join(original[::-1])
 
+def backward_search(bwt, c, occur, pattern):
+    sp = 0
+    ep = len(bwt) - 1
+
+    for char in reversed(pattern):
+        if char not in c:
+            return -1 
+        
+        sp = c[char] + occur[char][sp]
+        ep = c[char] + occur[char][ep + 1] - 1
+        
+        if sp > ep:
+            return -1 
+    
+    return sp, ep
+
 if __name__ == "__main__":
     filename = "example.txt"
     text = read_text_file(filename)
@@ -59,6 +75,21 @@ if __name__ == "__main__":
     occur = build_occur_table(bwt)
     print("C array:", c)
     print("Occur table:", dict(occur))
+
+    original_text = inverse_bwt(bwt)
+    print("Texto original reconstruido:", original_text)
+
+    pattern = "ana"
+    result = backward_search(bwt, c, occur, pattern)
+    
+    if result != -1:
+        sp, ep = result
+        print(f"El patrón '{pattern}' se encuentra entre las posiciones {sp} y {ep}.")
+    else:
+        print(f"El patrón '{pattern}' no se encuentra en la cadena.")
+
+
+
 
 
 
