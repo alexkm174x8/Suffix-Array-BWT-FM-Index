@@ -1,5 +1,7 @@
 # Suffix Array, Burrows-Wheeler Transform (BWT), FM-Index y Búsqueda de Patrones
 
+Conversación con ChatGPT: https://chatgpt.com/share/66f89bd5-b1e4-8004-ba1f-63878e3ba1e8
+
 Este proyecto implementa el **Suffix Array**, **Burrows-Wheeler Transform (BWT)** y **FM-Index**, junto con métodos para realizar la búsqueda de patrones en una cadena de texto. El código está diseñado para leer un archivo de texto, calcular el Suffix Array y la BWT, y permitir la búsqueda eficiente de patrones utilizando el FM-Index.
 
 ## Archivos del Proyecto
