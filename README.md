@@ -2,7 +2,9 @@
 
 Conversación con ChatGPT: https://chatgpt.com/share/66f89bd5-b1e4-8004-ba1f-63878e3ba1e8
 
-Este proyecto implementa el **Suffix Array**, **Burrows-Wheeler Transform (BWT)** y **FM-Index**, junto con métodos para realizar la búsqueda de patrones en una cadena de texto. El código está diseñado para leer un archivo de texto, calcular el Suffix Array y la BWT, y permitir la búsqueda eficiente de patrones utilizando el FM-Index.
+Este proyecto implementa el Suffix Array, Burrows-Wheeler Transform (BWT) y FM-Index, junto con métodos para realizar la búsqueda de patrones en una cadena de texto. El código está diseñado para leer un archivo de texto, calcular el Suffix Array y la BWT, y permitir la búsqueda eficiente de patrones utilizando el FM-Index.
+
+Además, se realizó un análisis sobre una cadena de genoma, donde se buscó específicamente la subcadena TCGA para verificar su presencia en la secuencia genómica. Este análisis es útil para identificar patrones o secuencias de interés dentro de datos biológicos, como los que se encuentran en secuencias genómicas, proporcionando una herramienta valiosa para investigaciones en bioinformática y genética.
 
 ## Archivos del Proyecto
 
